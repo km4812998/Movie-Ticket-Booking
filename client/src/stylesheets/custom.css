@@ -1,0 +1,113 @@
+.card{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.bookcontent{
+    padding: 4px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+}
+.theatrecontent{
+    background-color: white;
+    padding: 4px;
+    width: 50%;
+    border-radius: 10px;
+}
+.showstime{
+    border: 1px solid #36527e;
+    padding: 4px;
+    margin-top: 10px;
+    text-decoration: underline;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.w-400{
+    width: 400px;
+}
+.circle{
+    border-radius: 25px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.underline{
+    text-decoration: underline;
+}
+.content{
+    min-height: 95vh;
+    border:1px solid black;
+    background-image: url(https://images.unsplash.com/photo-1595769816263-9b910be24d5f?q=80&w=1779&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: none;
+}
+
+table{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+thead th{
+    background-color: gray !important;;
+    border-bottom: 1px solid black !important;
+    
+}
+
+.search-input{
+    height: 60px;
+    border-radius: 10px;
+}
+
+
+.seat{
+    width: 45px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white !important;
+}
+.selected-seat{
+    background-color: rgba(0, 255, 55, 0.712)!important;
+    /* color: white!important; */
+}
+.booked-seat{
+    background-color: #ffe600 ;
+    cursor: not-allowed;
+    pointer-events: none;
+    /* color: white!important; */
+}
+
+/* .loader-parent{
+    position: fixed;
+    background-color: black;
+    inset:0;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 4px solid var(--colour-secondary);
+    border-top-color: var(--colour-primary);
+    animation: loader-anim 1s linear infinite;
+}
+
+@keyframes loader-anim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
